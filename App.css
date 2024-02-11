@@ -1,0 +1,55 @@
+
+.header {
+  width: 100%;
+  padding: 2% 5%;
+  /* background-color: gray; */
+  display: flex;
+  justify-content: space-between;
+}
+
+input{
+  /* width: 20%; */
+  height: 10%;
+  padding: 4px 2px;
+  outline: none;
+  border-radius: 10%;
+}
+.news-articles{
+  /* background-color: aqua; */
+  /* column-gap: 1%; */
+  row-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2% 5%;
+}
+
+.news {
+  padding: 20px;
+  margin: 10px;
+  background-color: blanchedalmond;
+  width: 20%;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.news-img{
+  width: 100%;
+  height: 200px;
+  background-color: burlywood;
+  border-radius: 5px;
+  overflow: hidden;
+  background-image: url("https: //static.vecteezy.com/system/resources/previews/005/720/408/non_2x/crossed-image-icon-picture-not-available-delete-picture-symbol-free-vector.jpg");
+  background-size: cover;
+  
+}
+
+
+.news-img img{
+  max-width: 100%;
+  height: 200px;
+}
+
+.source{
+  display: flex;
+  justify-content: space-between;
+}
